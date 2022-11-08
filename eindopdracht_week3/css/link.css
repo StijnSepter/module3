@@ -1,0 +1,511 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.info{
+    margin:0 0 1px 205px ;
+}
+
+#header{
+    display: block;
+}
+
+h1{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+h2{
+    margin:0 0 0px 250px;
+}
+
+.subtitle{
+    margin: 0 0 25px 250px;
+}
+
+img{
+    width: 450px;
+    border: solid 1px black;
+    margin-left: 200px;
+    float: left;
+    height: 500px;
+}
+
+/* info over het product */
+
+
+#maat{
+    margin-bottom: 15px;
+    border-radius: 1px;
+    border: solid 1px black;
+}
+
+.tops{
+    padding-left: 668px;
+}
+
+.keuzens{
+    margin-left: 665px;
+}
+
+/* shopingcart */
+
+.shopingcart{
+    color: rgb(0, 0, 0);
+    padding:35px 0px 0 25px; 
+    position: relative;
+}
+
+#cart{
+    position: relative;
+    padding: 5px;
+    border-radius: 3%;
+    font-size: 30px;
+    background-color: rgb(255, 0, 0);
+}
+
+a:link {
+    text-decoration: none; 
+}
+
+#cart:hover{
+    background-color: rgba(255, 0, 0, 0.832);
+}
+
+.space{
+    width: 100%;
+    height: 150px;
+}
+
+#navbar{
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(255, 59, 59);
+    margin: 0;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+#logo_head{
+    border-radius: 100%;
+    margin:0 0 0 20px;
+    border: solid 1.5px black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#logo_eye1{
+    background-color: black;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 30px 0 0 30px;
+}
+
+#logo_eye2{
+    background-color: black;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    margin: 30px 3px 0 30px;
+    display: inline-block;
+}
+
+#logo_mouth_bottom{
+    background-color:black;
+    width:40px;
+    height:20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+}
+
+#link_home{
+    font-weight: 800;
+    width: 20px;
+    height: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px;
+}
+
+#link_home:hover{
+    text-transform: capitalize;
+    text-decoration: underline 1px black;
+    cursor: pointer;
+}
+
+#ga terug{
+    width: 200px;
+}
+
+/* einde navbar */
+
+/* price */
+
+.price_oud{
+    color: rgb(65, 0, 0);
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+    padding:0 0 5px 5px
+}
+
+.price_new{
+    color: red;
+    font-size: 25px;
+    font-weight: 600px;
+    margin: 0;
+    padding:0 0 20px 5px
+}
+
+/* heart */
+
+#heart1, #heart2{
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 15px;
+    position: absolute;
+    right: 515px;
+    bottom: 322px;
+}
+
+#heart #heart2{
+    display:none;
+}
+
+#heart #heart1{
+    display:block;
+}
+
+#heart:hover #heart1{
+    display: none;
+}
+
+#heart:hover #heart2{
+    display: block;
+}
+
+/* filler  */
+
+.about{
+    text-align: justify;
+    margin-left: 680px;
+    padding-top: 10px;
+}
+
+#checkmark{
+    color: green;
+}
+
+/* revieuws over mijn product */
+
+.reviews{
+    border: solid 1px black;
+    width: 550px;
+    height: 350px;
+    display: block;
+    margin: 120px 0 40px 120px;
+    padding: 5px;
+}
+
+/* steren */
+
+#star1, #star2, #star3, #star4, #star5, #star-fill1, #star-fill2, #star-fill3, #star-fill4, #star-fill5{
+    font-size: 45px;
+    color: rgb(255, 238, 0);
+    position: absolute;
+}
+
+.star #star-fill1{
+    display: none;
+}
+
+.star #star1{
+    display: block;
+}
+
+.star:hover #star1{
+    display: none;
+}
+
+.star:hover #star-fill1{
+    display: block;
+}
+
+#star-fill1, #star1{
+    left: 130px;
+}
+
+/* star 1 */
+
+.star #star-fill2{
+    display: none;
+}
+
+.star #star2{
+    display: block;
+}
+
+.star:hover #star2{
+    display: none;
+}
+
+.star:hover #star-fill2{
+    display: block;
+}
+
+#star-fill2, #star2{
+    left: 180px;
+}
+
+/* star2 */
+
+.star #star-fill3{
+    display: none;
+}
+
+.star #star3{
+    display: block;
+}
+
+.star:hover #star3{
+    display: none;
+}
+
+.star:hover #star-fill3{
+    display: block;
+}
+
+#star-fill3, #star3{
+    left: 230px;
+}
+
+/* star3 */
+
+.star #star-fill4{
+    display: none;
+}
+
+.star #star4{
+    display: block;
+}
+
+.star:hover #star4{
+    display: none;
+}
+
+.star:hover #star-fill4{
+    display: block;
+}
+
+#star-fill4, #star4{
+    left: 280px;
+}
+
+/* star4 */
+
+.star #star-fill5{
+    display: none;
+}
+
+.star #star5{
+    display: block;
+}
+
+.star:hover #star5{
+    display: none;
+}
+
+.star:hover #star-fill5{
+    display: block;
+}
+
+#star-fill5, #star5{
+    left: 330px;
+}
+
+/* star5 */
+
+/* bar en stars */
+
+.bar{
+    width: 350px;
+    height: 5px;
+    border-radius: 0.5rem;
+    border: solid 1px black;
+    position: absolute;
+    margin-left: 5px;
+}
+
+#bar1{
+    bottom: -120px;
+    background-color: yellow;
+}
+
+#bar2{
+    bottom: -150px;
+}
+
+#bar3{
+    bottom: -180px;
+}
+
+#bar4{
+    bottom: -210px;
+}
+
+#bar5{
+    bottom: -240px;
+}
+
+.stars{
+    color: yellow;
+    font-size: 20px;
+    float: right;
+    padding:5px 0 0 5px;
+}
+
+#star_none{
+    display: none;
+}
+
+#sterencolum{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: justify;
+    margin-left: 370px;
+    margin-top: 70px;
+}
+
+/* einde steren */
+
+.reviewtitle{
+    float: right;
+    margin: 10px 90px 0 0;
+    font-size: 32px;
+}
+
+.review-text{
+    text-align: justify;
+    margin-left: 15px;
+}
+
+/* footer bar */
+
+#footer-bar{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(255, 4, 4, 0.903);
+    color: white;
+}
+
+#footer-bar img{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    padding-top: 25px;
+    border: none;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#dots{
+    position: absolute;
+    top: 700px;
+    left: 385px;
+}
+
+/* einde slideshow */

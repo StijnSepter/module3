@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.terug{
+    background-color: rgba(255, 0, 0, 0.861);
+    height: 50px;
+    border-radius: 2%;
+    color: black;
+    float: left;
+}
+
+.terug:hover{
+    background-color: rgba(255, 0, 0, 0.769);
+}
+
+.link_terug{
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    padding: 2px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.text{
+    font-size: 20px;
+    color: black;
+    margin-top: 3px;
+    padding: 7px 4px 0 4px;
+}
+
+.sluitings-text{
+    font-size: 22px;
+    top: 200px;
+    right: 500px;
+    position: absolute;
+    font-weight: 500;
+}
+
+/* smile */
+
+#smile{
+    font-size: 1cm;
+    top: 200px;
+    left: 230px;
+    position: absolute;
+    color: red;
+}
+
+#smile1{
+    font-size: 1.5cm;
+    top: 400px;
+    right: 230px;
+    position: absolute;
+    color: blue;
+}
+
+#smile2{
+    font-size: 1.6cm;
+    top: 500px;
+    left: 400px;
+    position: absolute;
+    color: rgb(0, 255, 60);
+}

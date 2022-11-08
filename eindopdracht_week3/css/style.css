@@ -1,0 +1,280 @@
+body{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.space{
+    width: 100%;
+    height: 150px;
+}
+
+#navbar{
+    top: 0;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(255, 59, 59);
+    margin: 0;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+
+#logo_head{
+    border-radius: 100%;
+    margin:0 0 0 20px;
+    border: solid 1.5px black;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#logo_eye1{
+    background-color: black;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin: 30px 0 0 30px;
+}
+
+#logo_eye2{
+    background-color: black;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    margin: 30px 3px 0 30px;
+    display: inline-block;
+}
+
+#logo_mouth_bottom{
+    background-color:black;
+    width:40px;
+    height:20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+}
+
+#zoekbalk{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#zoekbalk1{
+    width: 250px;
+    height: 50px;
+    border-radius: 5%;
+    text-align: center;
+    font-size: large;
+    cursor: text;
+}
+
+#link_home{
+    font-weight: 800;
+    width: 20px;
+    height: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#link_home:hover{
+    text-transform: capitalize;
+    text-decoration: underline 1px black;
+    cursor: pointer;
+}
+
+#link_about{
+    font-weight: 800;
+    width: 20px;
+    height: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#link_about:hover{
+    text-transform: capitalize;
+    text-decoration: underline 1px black;
+    cursor: pointer;
+}
+
+#link_more{
+    font-weight: 800;
+    width: 20px;
+    height: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#link_more:hover{
+    text-transform: capitalize;
+    text-decoration: underline 1px black;
+    cursor: pointer;
+}
+
+#keuzens{
+    float: left;
+    margin-left: 150px;
+    width: 125px;
+    height: 30px;
+    margin-top: -45px;
+}
+
+/**
+* ! shoppingcart
+**/
+
+.shopingcart{
+    color: white;
+    padding:35px 80px 0 0; 
+    position: relative;
+}
+
+.cart-link{
+    text-decoration: none;
+    color:black;
+}
+
+.cartAmount{
+    padding: 5px;  
+    position: absolute;
+    top:18px;
+    right:73px;
+    background-color: rgb(255, 89, 0);
+    border-radius: 20%;
+}
+
+#cart{
+    position: relative;
+    padding: 5px;
+    background-color: rgb(255,110, 0);
+    border-radius: 8%;
+    font-size: 30px;
+}
+
+#cart:hover{
+    background-color: rgb(255, 140, 0);
+}
+
+
+/**
+* ! sidebar
+**/
+
+
+#sidebar{
+    width: 150px;
+    height:100% ;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    overflow-x: hidden;
+    top: 115px;
+    left: 0;
+    border: solid 1px black;
+    border-top: solid white;
+}
+
+.koekjes{
+    display: block;
+    text-decoration: none;
+}
+
+.hover:hover{
+    color: rgba(0, 0, 0, 0.827);
+    text-transform: capitalize;
+    text-decoration: underline 1px black;
+}
+
+.hover{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+/**
+*  ? hier kommen de producten in de winkel
+**/
+
+
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width:1100px){
+    .shop{
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width:570px){
+    .shop{
+        grid-template-columns: repeat(1 , 223px);
+    }
+}
+
+.item{
+    border: solid 2px  black;
+    border-radius: 2%;
+    margin-top: 35px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.name_item{
+    margin: 10px 0 10px 10px;
+    font-family:sans-serif;
+}
+
+.text_item{
+    margin: 0px 0 10px 10px;
+    font-family: sans-serif;
+}
+
+.price{
+    font-weight: 400;
+    margin: 5px 0 5px 5px;
+}
+
+.price-quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+    flex-direction: row;
+    margin-right:5px;
+}
+
+.bi-dash-lg{
+    color: red;
+}
+
+.bi-plus-lg{
+    color: green;
+}
+
